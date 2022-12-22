@@ -1,0 +1,27 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Variables ***
+${URL}                 https://www.saucedemo.com/
+${BROWSER}             chrome
+${USERNAME}            //*[@id="user-name"]
+${PASSWORD}            //*[@id="password"]
+${INPUTUSERNAME}       standard_user
+${INPUTPASSWORD}       secret_sauce
+${LOGIN}               //*[@id="login-button"]
+
+*** Test Cases ***
+Rebel Works
+    Launch_Browser
+    Login_Demo
+
+*** Keywords ***
+Launch_Browser
+    Open Browser                     ${URL}         ${BROWSER}
+    Maximize Browser Window
+    
+Login_Demo
+    Wait Until Element Is Visible    ${USERNAME} 
+    Input Text                       ${USERNAME}       ${INPUTUSERNAME} 
+    Input Text                       ${PASSWORD}       ${INPUTPASSWORD} 
+    Click Element                    ${LOGIN}
