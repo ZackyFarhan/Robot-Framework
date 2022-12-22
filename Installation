@@ -1,0 +1,6 @@
+1. Download Python ----> https://www.python.org/downloads/
+2. Install robot via Terminal ----> pip3 install robot framework
+3. Upgrade library via Terminal ----> pip3 install --upgrade robotframework-seleniumlibrary
+4. Download vscode ----> https://code.visualstudio.com/download
+5. Install extensions ----> Robot Framework Languange Server
+6. Download chromedriver ---->  https://chromedriver.chromium.org/downloads
