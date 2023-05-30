@@ -5,5 +5,6 @@
 5. Install extensions ----> Robot Framework Languange Server
 6. Download chromedriver ---->  https://chromedriver.chromium.org/downloads
 
+install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install cask chromedriver
