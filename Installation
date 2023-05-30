@@ -4,3 +4,6 @@
 4. Download vscode ----> https://code.visualstudio.com/download
 5. Install extensions ----> Robot Framework Languange Server
 6. Download chromedriver ---->  https://chromedriver.chromium.org/downloads
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install cask chromedriver
